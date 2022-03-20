@@ -7,14 +7,12 @@ class App_header extends Component {
     render() {
         return (
             <div className='App-header'>
-                <div style={{justifyContent: "left"}}>
-                <img src={aspire_logo} id="logo" alt="aspire-logo" />
-                </div>
-                <div id="text" style={{justifyContent: "right"}}>
-                    <p >
-                        NodeJS study plan
-                    </p>
-                </div>
+
+                <img src={aspire_logo} alt="aspire-logo" />
+
+                <p className='text'>
+                    NodeJS study plan
+                </p>
             </div>
         );
     }
