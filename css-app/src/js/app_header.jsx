@@ -7,7 +7,6 @@ class App_header extends Component {
     render() {
         return (
             <div className='App-header'>
-
                 <img src={aspire_logo} alt="aspire-logo" />
 
                 <p className='text'>

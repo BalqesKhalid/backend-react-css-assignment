@@ -1,7 +1,10 @@
 .App-header {
     flex: 1;
     flex-direction: 'row';
-    justify-Content: 'space-between'
+    justify-Content: 'space-between';
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
 }
 
 .text {
