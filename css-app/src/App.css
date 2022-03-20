@@ -1,7 +1,6 @@
-.App {
+/*.App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,20 +12,33 @@
   }
 }
 
+
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: left;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgba(51, 53, 139, 1);
+  font-family: Montserrat;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0em;
+  
 }
+.App-text{
+  justify-content: left;
+  text-align: right;
+}
+
 
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +47,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+}*/
