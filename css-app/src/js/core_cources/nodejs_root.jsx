@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import logo from '../../icons-cources/nodejs.svg';
-import '../../App.css';
+import '../../css/nodejs_root.css';
 
 class Nodejs_root extends Component {
     render() {
