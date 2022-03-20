@@ -3,25 +3,21 @@ import React, { Component } from 'react';
 import '../css/header.css';
 
 
-class app_header extends Component {
+class App_header extends Component {
     render() {
         return (
             <div className='App-header'>
+                <div style={{justifyContent: "left"}}>
                 <img src={aspire_logo} id="logo" alt="aspire-logo" />
-                <div id="text">
+                </div>
+                <div id="text" style={{justifyContent: "right"}}>
                     <p >
                         NodeJS study plan
                     </p>
-                    <div>
-                        <p>Total Training Duration:</p>
-                        <p>163 Hours (24 Days)</p>
-
-                    </div>
                 </div>
-
             </div>
         );
     }
 }
 
-export default app_header;
+export default App_header;

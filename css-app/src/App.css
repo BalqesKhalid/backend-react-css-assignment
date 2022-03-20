@@ -1,3 +1,32 @@
+.tilte {
+    color: rgba(0, 52, 89, 1);
+    font-family: Roboto;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+}
+.root_part1_border{
+  background: #FFFFFF;
+  border: 4px solid #33358B;
+  box-sizing: border-box;
+  border-radius: 40px 40px 0px 0px;
+  text-align: center;
+  width: 438px;
+  height: 145px;
+  display: flex;
+}
+.root_part2_border{
+  background: #33358B;
+  border-radius: 0px 0px 40px 40px;
+  border: 4px solid #33358B;
+  box-sizing: border-box;
+  text-align: center;
+  width: 438px;
+  height: 145px;
+}
+
 /*.App {
   text-align: center;
 }
