@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import '../css/header.css';
 
 
-class App_header extends Component {
+class Header extends Component {
     render() {
         return (
             <div className='App-header'>
@@ -17,4 +17,4 @@ class App_header extends Component {
     }
 }
 
-export default App_header;
+export default Header;
