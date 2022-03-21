@@ -6,21 +6,23 @@ class Java_script_101 extends Component {
     render() {
         return (
             <div className='green_box'>
-                <div className='green_box_part1'>
-                    <img src={logo} img="Java script" />
-                    <div style={{ display: "inline" }}>
-                        <p className='title1'>Javascript </p>
-                        <p className='title2'>JS 101</p>
-                    </div>                    
 
-                </div>
-                <div style={{ display: "inline" , justifyContent:"right" }}>
-                        <p className='tiltle3'>50 Hours</p>
-                        <p className='transparent_title'>(8 Days)</p>
+                <div className='first_row'>
+                    <div>
+                        <img className='image' src={logo} img="Java script" />
+                        <div className='duration'>
+                            <p className='hours'>50 Hours</p>
+                            <p className='days'>(8 Days)</p>
+                        </div>
+                        <div className='title'>
+                        <p className='first'>Javascript </p>
+                        <p className='last'>JS 101</p>
+                        </div>
                     </div>
+                </div>
                 <div>
-                    <p className='transparent_title'>Full course name</p>
-                    <p className='title3'>The Modern Javascript <br/> Bootcamp</p>
+                    <p>Full course name</p>
+                    <p>The Modern Javascript <br /> Bootcamp</p>
                 </div>
             </div>
         );
