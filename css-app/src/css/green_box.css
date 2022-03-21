@@ -8,7 +8,7 @@
 }
 
 .first_row .image {
-    padding: 10px;
+    padding: 15px;
 }
 
 .first_row .title {
@@ -29,6 +29,7 @@
     font-weight: 700;
     letter-spacing: 0em;
     text-align: left;
+    margin-top: -6px;
 }
 
 .first_row .title .last {
@@ -38,6 +39,7 @@
     font-weight: 400;
     letter-spacing: 0em;
     text-align: left;
+    margin-top: -10px;
 }
 
 .first_row .duration {
