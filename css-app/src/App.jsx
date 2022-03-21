@@ -8,6 +8,7 @@ import Grapgql_script_302 from './js/core_cources/Grapgql_script_302';
 import Agile_course from './js/additional_cources/Agile_course';
 import Git_course from './js/additional_cources/Git_course';
 import Jira_course from './js/additional_cources/Jira_course';
+import Footer from './js/Footer';
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
         <Git_course />
         <Jira_course/>
       </div>
+
+      <Footer/>
     </div>
   );
 }
