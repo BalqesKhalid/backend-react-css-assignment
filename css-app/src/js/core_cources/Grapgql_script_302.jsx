@@ -10,7 +10,7 @@ class Grapgql_script_302 extends Component {
 
                 <div className='first_row'>
                     <div>
-                        <img className='image' src={logo} img="graphQl logo" />
+                        <img className='image' src={logo} alt="graphQl logo" />
                         <div className='duration'>
                             <p className='hours'>40 Hours</p>
                             <p className='days'>(6 Days)</p>

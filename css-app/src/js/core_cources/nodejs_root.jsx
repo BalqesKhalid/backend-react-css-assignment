@@ -6,8 +6,8 @@ import '../../css/nodejs_root.css';
 class Nodejs_root extends Component {
     render() {
         return (
-            <div className='center'>
-                <div style={{width: "10%"}}>
+           
+                <div className='center'>
                     <div className='root_part1_border'>
                         <img src={logo} alt='nodeJs' />
                         <p className='tilte'>NodeJS</p>
@@ -17,7 +17,7 @@ class Nodejs_root extends Component {
                         <p style={{ fontSize: "19px" }}>163 Hours (24 Days)</p>
                     </div>
                 </div>
-            </div>
+            
         );
     }
 }
