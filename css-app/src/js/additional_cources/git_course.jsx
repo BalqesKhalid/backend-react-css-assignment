@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
-import logo from '../icons-cources/git'
+import logo from '../../icons-cources/git.svg'
 
-class git_course extends Component {
+class Git_course extends Component {
     render() {
         return (
-            <div>
-                <img src={logo} />
-                <div >
-                    <p >
-                        git
-                       
-                    </p>
-                    Course type
-                    Online Session
+            <div className='blue_box'>
+                <div className='first_row'>
+                    <img className='image' src={logo} />
+                    <p className='title'>JIRA</p>
+
+                </div>
+                <div className='second_row'>
+                    <p className='hours_number'>4<br />Hours</p>
+                    <p className='courseType_part1'>Course type </p>
+                    <p className='courseType_part2'>Online Session </p>
                 </div>
 
             </div>
@@ -20,4 +21,4 @@ class git_course extends Component {
     }
 }
 
-export default git_course;
+export default Git_course;

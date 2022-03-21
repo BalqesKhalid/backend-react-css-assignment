@@ -1,0 +1,54 @@
+.blue_box {
+    background: #FFFFFF;
+    border: 4px solid rgba(0, 148, 255, 1);
+    box-sizing: border-box;
+    border-radius: 40px;
+    width: 10%;
+    padding: 15px;
+}
+
+.first_row .image {
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.first_row .title {
+    color: rgba(0, 52, 89, 1);
+    font-family: Roboto;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.second_row .hours_number {
+    color: rgba(0, 52, 89, 1);
+    float: right;
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.second_row .courseType_part1 {
+    color: rgba(124, 124, 124, 1);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    padding-top: 4%;
+    margin-bottom: 3%;
+}
+
+.second_row .courseType_part2 {
+    color: rgba(0, 52, 89, 1);
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;
+}
