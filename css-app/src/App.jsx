@@ -15,10 +15,10 @@ import down_arrow from './icons-cources/down_arrow.svg'
 import sub_break_line from './icons-cources/sub_break_line.svg'
 function App() {
   return (
-    <div class='roadmap'>
-      <div className='header'>
+    <body class='roadmap'>
+      <header>
         <AppHeader />
-      </div>
+      </header>
       <div className='roadmap_root'>
         <Root_course />
       </div>
@@ -68,7 +68,7 @@ function App() {
         <Footer />
       </div>
 
-    </div>
+    </body>
   );
 }
 

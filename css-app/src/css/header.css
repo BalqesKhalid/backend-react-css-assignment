@@ -1,11 +1,15 @@
 .App-header {
-    flex: 1;
-    flex-direction: 'row';
-    justify-Content: 'space-between';
+    display: inline-block;
+    justify-content: space-between;
 }
 
-.text {
+.App-header .logo {
+    display: inline;
+}
+
+.App-header .text {
     float: right;
+    display: inline;
     text-align: right;
     color: rgba(51, 53, 139, 1);
     font-family: Montserrat;

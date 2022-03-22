@@ -1,5 +1,10 @@
 .roadmap {
     width: 100%;
+    align-items: center;
+}
+
+header {
+    text-align: center;
 }
 
 .roadmap .header {
