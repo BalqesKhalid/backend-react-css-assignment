@@ -7,7 +7,7 @@ class Header extends Component {
     render() {
         return (
             <div className='App-header'>
-                <img src={aspire_logo} alt="aspire-logo" />
+                <img className='image' src={aspire_logo} alt="aspire-logo" />
 
                 <p className='text'>
                     NodeJS study plan

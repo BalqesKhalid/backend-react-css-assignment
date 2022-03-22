@@ -2,77 +2,61 @@
     width: 100%;
 }
 
-.roadmap .header {
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 4%;
+header {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
 }
 
 .roadmap .roadmap_root {
-    width: 100%;
-    display: flex;
+    width: 25%;
+    /*display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
 }
 
 .roadmap .down_arrow {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .roadmap .left_arrow {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.roadmap .level1 {
     display: flex;
+    gap: 65px;
+    justify-content: center;
+}
+
+.roadmap .level2 {
+    display: flex;
+    justify-content: center;
+}
+
+.roadmap .level3 {
+    display: flex;
+    justify-content: center;
+}
+
+.roadmap .additionals {
     align-items: center;
     justify-content: center;
 }
 
-.roadmap .level1 {
-    padding-left: 32%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 65px;
-}
-
-.roadmap .level2 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.roadmap .level3 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.roadmap .additionals {
-    width: 100%;
-    align-items: center;
-    justify-content: space-around;
-}
-
 .roadmap .additionals_part1 {
-    width: 100%;
     display: flex;
     align-items: center;
     gap: 10px;
-    padding-left: 35%;
+    justify-content: center;
 }
 
 .roadmap .additionals_part2 {
-    width: 100%;
     display: flex;
-    align-items: center;
+    justify-content: center;
     gap: 10px;
-    padding-left: 35%;
 }
 
 .roadmap .additionals_part1 .image1 {
@@ -99,7 +83,6 @@
 }
 
 .roadmap .footer {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;

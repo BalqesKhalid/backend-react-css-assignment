@@ -7,7 +7,7 @@ class Nodejs_root extends Component {
     render() {
         return (
            
-                <div className='center'>
+                <div>
                     <div className='root_part1_border'>
                         <img src={logo} alt='nodeJs' />
                         <p className='tilte'>NodeJS</p>

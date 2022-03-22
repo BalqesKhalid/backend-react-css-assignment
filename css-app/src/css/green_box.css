@@ -7,11 +7,16 @@
     padding: 15px;
 }
 
-.first_row .image {
-    padding: 15px;
+.green_box .first_row {
+    margin-bottom: 35%;
 }
 
-.first_row .title {
+.green_box .first_row .image {
+    padding-right: 2%;
+    float: left;
+}
+
+.green_box .first_row .title {
     color: rgba(0, 52, 89, 1);
     font-family: Roboto;
     font-size: 24px;
@@ -19,34 +24,39 @@
     font-weight: 400;
     letter-spacing: 0em;
     margin: 0;
-    display: inline-block;
+    display: inline;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
-.first_row .title .first {
+.green_box .first_row .title .first {
     font-family: Roboto;
     font-size: 29px;
     font-style: normal;
     font-weight: 700;
     letter-spacing: 0em;
     text-align: left;
-    margin-top: -6px;
+    margin: 0%;
 }
 
-.first_row .title .last {
+.green_box .first_row .title .last {
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0em;
     text-align: left;
-    margin-top: -10px;
+    margin: 0%;
 }
 
-.first_row .duration {
+.green_box .first_row .duration {
     float: right;
+    display: inline;
+    margin-top: 5%;
 }
 
-.first_row .duration .hours {
+.green_box .first_row .duration .hours {
     color: rgba(0, 52, 89, 1);
     font-family: Roboto;
     font-size: 17px;
@@ -55,9 +65,10 @@
     line-height: 20px;
     letter-spacing: 0em;
     text-align: right;
+    margin: 0%;
 }
 
-.first_row .duration .days {
+.green_box .first_row .duration .days {
     color: rgba(124, 124, 124, 1);
     font-family: Roboto;
     font-size: 21px;
@@ -66,9 +77,14 @@
     line-height: 25px;
     letter-spacing: 0em;
     text-align: right;
+    margin: 0%;
 }
 
-.green_box .full_course_name_part1 {
+.green_box .second_row {
+    display: block;
+}
+
+.green_box .second_row .full_course_name_part1 {
     color: rgba(124, 124, 124, 1);
     font-family: Roboto;
     font-size: 14px;
@@ -79,7 +95,7 @@
     text-align: left;
 }
 
-.green_box .full_course_name_part2 {
+.green_box .second_row .full_course_name_part2 {
     color: rgba(0, 52, 89, 1);
     font-family: Roboto;
     font-size: 23px;
@@ -88,4 +104,5 @@
     line-height: 27px;
     letter-spacing: 0em;
     text-align: left;
+    margin-top: 0%;
 }
