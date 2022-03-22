@@ -1,6 +1,6 @@
 .App-header {
     display: inline-block;
-    justify-content: space-between;
+    width: 100%;
 }
 
 .App-header .logo {
