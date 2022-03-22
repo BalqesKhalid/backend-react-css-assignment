@@ -23,8 +23,10 @@ class Sql_script_101 extends Component {
                     </div>
                 </div>
                 <div className='second_row'>
+                    <div>
                     <p className='full_course_name_part1'>Full course name</p>
                     <p className='full_course_name_part2'>Learning SQL</p>
+                    </div>
                 </div>
             </div>
 

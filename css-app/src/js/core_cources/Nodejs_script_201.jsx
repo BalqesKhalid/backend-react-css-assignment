@@ -11,7 +11,7 @@ class Nodejs_script_201 extends Component {
                 <div className='first_row'>
                     <div>
                         <img className='image' src={logo} img="NodeJS logo" />
-                       
+
                         <div className='title'>
                             <p className='first'>NodeJS</p>
                             <p className='last'>JS 201</p>
