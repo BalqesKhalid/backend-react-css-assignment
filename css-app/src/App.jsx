@@ -68,9 +68,9 @@ function App() {
         </div>
         <br />
         <br />
-        <div className='footer'>
+        <footer className='footer'>
           <Footer />
-        </div>
+        </footer>
       </center>
     </body>
   );
