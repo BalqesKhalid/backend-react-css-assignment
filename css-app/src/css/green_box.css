@@ -3,15 +3,16 @@
     border: 4px solid #02C39A;
     box-sizing: border-box;
     border-radius: 40px;
-    width: 15%;
+    width: 20%;
     padding: 15px;
 }
 
-.first_row .image {
-    padding: 15px;
+.green_box .first_row .image {
+    padding: 5px;
+    float: left;
 }
 
-.first_row .title {
+.green_box .first_row .title {
     color: rgba(0, 52, 89, 1);
     font-family: Roboto;
     font-size: 24px;
@@ -19,10 +20,11 @@
     font-weight: 400;
     letter-spacing: 0em;
     margin: 0;
-    display: inline-block;
+    display: inline;
+    float: left;
 }
 
-.first_row .title .first {
+.green_box .first_row .title .first {
     font-family: Roboto;
     font-size: 29px;
     font-style: normal;
@@ -32,7 +34,7 @@
     margin-top: -6px;
 }
 
-.first_row .title .last {
+.green_box .first_row .title .last {
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
@@ -42,11 +44,12 @@
     margin-top: -10px;
 }
 
-.first_row .duration {
+.green_box .first_row .duration {
     float: right;
+    display: inline;
 }
 
-.first_row .duration .hours {
+.green_box .first_row .duration .hours {
     color: rgba(0, 52, 89, 1);
     font-family: Roboto;
     font-size: 17px;
@@ -57,7 +60,7 @@
     text-align: right;
 }
 
-.first_row .duration .days {
+.green_box .first_row .duration .days {
     color: rgba(124, 124, 124, 1);
     font-family: Roboto;
     font-size: 21px;
@@ -68,7 +71,11 @@
     text-align: right;
 }
 
-.green_box .full_course_name_part1 {
+.green_box .second_row {
+    float: left;
+}
+
+.green_box .second_row .full_course_name_part1 {
     color: rgba(124, 124, 124, 1);
     font-family: Roboto;
     font-size: 14px;
@@ -79,7 +86,7 @@
     text-align: left;
 }
 
-.green_box .full_course_name_part2 {
+.green_box .second_row .full_course_name_part2 {
     color: rgba(0, 52, 89, 1);
     font-family: Roboto;
     font-size: 23px;
