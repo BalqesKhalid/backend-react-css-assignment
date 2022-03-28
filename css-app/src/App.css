@@ -1,44 +1,104 @@
 .roadmap {
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, auto);
 }
 
-header {
-    margin-left: 10%;
+.header {
+    grid-column: 1/4;
+    grid-row: 1;
+    /* margin-left: 10%;
     margin-right: 10%;
-    margin-top: 3%;
+    margin-top: 3%;*/
 }
 
-.roadmap .roadmap_root {
+.roadmap_root {
+    grid-column: 1/4;
+    grid-row: 2;
+    justify-self: center;
     width: 25%;
     /*display: flex;
     align-items: center;
     justify-content: center;*/
 }
 
-.roadmap .down_arrow {
+.down_arrow1 {
+    grid-column: 1/4;
+    grid-row: 3;
+    justify-self: center;
     margin-top: 1%;
     margin-bottom: 1%;
 }
 
-.roadmap .left_arrow {
+.down_arrow2 {
+    grid-column: 1/4;
+    grid-row: 5;
+    justify-self: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.down_arrow3 {
+    grid-column: 1/4;
+    grid-row: 7;
+    justify-self: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+/*.left_arrow {
+    grid-column: 2;
     margin-top: auto;
     margin-bottom: auto;
-}
 
-.roadmap .level1 {
-    display: flex;
+}*/
+
+.level1 {
+    grid-column: 1/4;
+    grid-row: 4;
+    display: contents;
+    /* display: flex;
     gap: 65px;
-    justify-content: center;
+    justify-content: center;*/
 }
 
-.roadmap .level2 {
-    display: flex;
-    justify-content: center;
+.level1_col1 {
+    grid-column: 1;
+    grid-row: 4;
+    justify-self: center;
+    /*display: contents;*/
+    width: 80%;
 }
 
-.roadmap .level3 {
-    display: flex;
-    justify-content: center;
+.level1_col2 {
+    grid-column: 2;
+    grid-row: 4;
+    justify-self: center;
+    align-self: center;
+}
+
+.level1_col3 {
+    grid-column: 3;
+    grid-row: 4;
+    justify-self: center;
+    /*display: contents;*/
+    width: 80%;
+}
+
+.level2 {
+    grid-column: 1/4;
+    grid-row: 6;
+    justify-self: center;
+    width: 25%;
+}
+
+.level3 {
+    grid-column: 1/4;
+    grid-row: 8;
+    justify-self: center;
+    width: 25%;
 }
 
 .roadmap .additionals {

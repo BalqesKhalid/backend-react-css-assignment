@@ -16,62 +16,50 @@ import sub_break_line from './icons-cources/sub_break_line.svg'
 function App() {
   return (
     <body class='roadmap'>
-      <header>
+      <header className='header'>
         <AppHeader />
       </header>
-      <center>
-        <div className='roadmap_root'>
-          <Root_course />
-        </div>
 
-        <div className='down_arrow'>
-          <img src={down_arrow} alt='down arrow' />
-        </div>
+      <div className='roadmap_root'>
+        <Root_course />
+      </div>
 
-        {/*Level 1*/}
+      <div className='down_arrow1'>
+        <img src={down_arrow} alt='down arrow' />
+      </div>
 
-        <div className='level1'>
+      {/*Level 1*/}
+
+      <div className='level1'>
+        <div className='level1_col1'>
           <Java_script_101 />
-          <div className='left_arrow'>
-            <img src={left_arrow} alt='down arrow' />
-          </div>
+        </div>
+        <div className='level1_col2'>
+          <img src={left_arrow} alt='right arrow' />
+        </div>
+        <div className='level1_col3'>
           <Sql_script_101 />
         </div>
-
-        {/*arrow 1*/}
-        <div className='down_arrow'>
+        {/*arrow 2*/}
+        <div className='down_arrow2'>
           <img src={down_arrow} alt='down arrow' />
         </div>
         {/*Level 2*/}
         <div className='level2'>
           <Nodejs_script_201 />
         </div>
-        {/*arrow 1*/}
-        <div className='down_arrow'>
+        {/*arrow 3*/}
+        <div className='down_arrow3'>
           <img src={down_arrow} alt='down arrow' />
         </div>
         {/*Level 3*/}
         <div className='level3'>
           <Grapgql_script_302 />
         </div>
-        <div className='additionals'>
-          <div className='additionals_part1'>
-            <img className='image1' src={sub_break_line} alt='break line' />
-            <p className='text'>Additional Courses</p>
-            <img className='image2' src={sub_break_line} alt='break line' />
-          </div>
-          <div className='additionals_part2'>
-            <Agile_course />
-            <Git_course />
-            <Jira_course />
-          </div>
-        </div>
-        <br />
-        <br />
-        <footer className='footer'>
-          <Footer />
-        </footer>
-      </center>
+
+      </div>
+
+
     </body>
   );
 }
