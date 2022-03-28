@@ -40,27 +40,42 @@ function App() {
         <div className='level1_col3'>
           <Sql_script_101 />
         </div>
-        {/*arrow 2*/}
-        <div className='down_arrow2'>
-          <img src={down_arrow} alt='down arrow' />
+      </div>
+      {/*arrow 2*/}
+      <div className='down_arrow2'>
+        <img src={down_arrow} alt='down arrow' />
+      </div>
+      {/*Level 2*/}
+      <div className='level2'>
+        <Nodejs_script_201 />
+      </div>
+      {/*arrow 3*/}
+      <div className='down_arrow3'>
+        <img src={down_arrow} alt='down arrow' />
+      </div>
+      {/*Level 3*/}
+      <div className='level3'>
+        <Grapgql_script_302 />
+      </div>
+
+      <div className='additionals'>
+        <div className='additionals_part1'>
+          <img className='image1' src={sub_break_line} alt='break line' />
+          <p className='text'>Additional Courses</p>
+          <img className='image2' src={sub_break_line} alt='break line' />
         </div>
-        {/*Level 2*/}
-        <div className='level2'>
-          <Nodejs_script_201 />
-        </div>
-        {/*arrow 3*/}
-        <div className='down_arrow3'>
-          <img src={down_arrow} alt='down arrow' />
-        </div>
-        {/*Level 3*/}
-        <div className='level3'>
-          <Grapgql_script_302 />
+        <div className='additionals_part2'>
+          <Agile_course />
+          <Git_course />
+          <Jira_course />
         </div>
 
       </div>
 
-
-    </body>
+      <footer className='footer'>
+        <Footer />
+      </footer>
+    </body >
   );
 }
 

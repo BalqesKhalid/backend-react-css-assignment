@@ -1,16 +1,12 @@
 .roadmap {
-    width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 25% 50% 25%;
     grid-template-rows: repeat(8, auto);
 }
 
 .header {
     grid-column: 1/4;
     grid-row: 1;
-    /* margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 3%;*/
 }
 
 .roadmap_root {
@@ -18,9 +14,6 @@
     grid-row: 2;
     justify-self: center;
     width: 25%;
-    /*display: flex;
-    align-items: center;
-    justify-content: center;*/
 }
 
 .down_arrow1 {
@@ -47,25 +40,14 @@
     margin-bottom: 1%;
 }
 
-
-/*.left_arrow {
-    grid-column: 2;
-    margin-top: auto;
-    margin-bottom: auto;
-
-}*/
-
 .level1 {
-    grid-column: 1/4;
+    grid-column: 2;
     grid-row: 4;
-    display: contents;
-    /* display: flex;
-    gap: 65px;
-    justify-content: center;*/
+    display: flex;
+    gap: 4%;
 }
 
 .level1_col1 {
-    grid-column: 1;
     grid-row: 4;
     justify-self: center;
     /*display: contents;*/
@@ -73,14 +55,12 @@
 }
 
 .level1_col2 {
-    grid-column: 2;
     grid-row: 4;
     justify-self: center;
     align-self: center;
 }
 
 .level1_col3 {
-    grid-column: 3;
     grid-row: 4;
     justify-self: center;
     /*display: contents;*/
@@ -101,37 +81,42 @@
     width: 25%;
 }
 
-.roadmap .additionals {
+.additionals {
+    grid-row: 9;
+    grid-column: 1/4;
     align-items: center;
     justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.roadmap .additionals_part1 {
+.additionals_part1 {
     display: flex;
     align-items: center;
     gap: 10px;
     justify-content: center;
 }
 
-.roadmap .additionals_part2 {
+.additionals_part2 {
     display: flex;
+    gap: 2%;
     justify-content: center;
-    gap: 10px;
+    place-items: center;
 }
 
-.roadmap .additionals_part1 .image1 {
+.additionals_part1 .image1 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.roadmap .additionals_part1 .image2 {
+.additionals_part1 .image2 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.roadmap .additionals_part1 .text {
+.additionals_part1 .text {
     display: flex;
     color: rgba(0, 52, 89, 1);
     font-family: Roboto;
@@ -142,8 +127,12 @@
     letter-spacing: 0em;
 }
 
-.roadmap .footer {
-    display: flex;
+.footer {
+    grid-row: 10;
+    grid-column: 2;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 2%;
 }
