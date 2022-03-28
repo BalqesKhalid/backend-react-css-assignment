@@ -4,18 +4,19 @@
     box-sizing: border-box;
     border-radius: 40px;
     padding: 15px;
+    display: grid;
+    grid-template-columns: 60% 40%;
 }
 
-.blue_box .first_row {
-    height: 50%;
-}
-
-.blue_box .first_row .image {
+.image {
+    grid-column: 1;
+    grid-row: 1;
     padding: 15px;
-    float: left;
 }
 
-.blue_box .first_row .title {
+.title {
+    grid-column: 2;
+    grid-row: 1;
     color: rgba(0, 52, 89, 1);
     font-family: Roboto;
     font-size: 29px;
@@ -24,14 +25,9 @@
     letter-spacing: 0em;
     text-align: left;
     float: left;
-    display: inline;
 }
 
-.blue_box .second_row {
-    display: block;
-}
-
-.blue_box .second_row .hours_number {
+.hours_number {
     color: rgba(0, 52, 89, 1);
     float: right;
     font-family: Roboto;
@@ -40,32 +36,29 @@
     font-weight: 700;
     letter-spacing: 0em;
     text-align: center;
-    float: right;
+    grid-column: 2;
+    grid-row: 2;
 }
 
-.blue_box .second_row .type {
-    float: left;
-}
-
-.blue_box .second_row .type .courseType_part1 {
+.courseType_part1 {
     color: rgba(124, 124, 124, 1);
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0em;
-    padding-top: 4%;
-    margin-bottom: 3%;
-    text-align: left;
+    grid-column: 1;
+    grid-row: 2;
+    margin: 0px;
 }
 
-.blue_box .second_row .type .courseType_part2 {
+.courseType_part2 {
     color: rgba(0, 52, 89, 1);
     font-family: Roboto;
     font-size: 23px;
     font-style: normal;
     font-weight: 700;
     letter-spacing: 0em;
-    text-align: left;
-    margin: 0%;
+    grid-column: 1;
+    grid-row: 2;
 }

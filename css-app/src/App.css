@@ -1,4 +1,6 @@
 .roadmap {
+    margin-right: 10%;
+    margin-left: 10%;
     display: grid;
     grid-template-columns: 25% 50% 25%;
     grid-template-rows: repeat(8, auto);

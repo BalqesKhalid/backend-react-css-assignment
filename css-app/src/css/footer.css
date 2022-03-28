@@ -4,12 +4,14 @@
     box-sizing: border-box;
     border-radius: 40px;
     padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    gap: 1%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
 }
 
-.box .green {
+.green {
+    grid-column: 1;
+    grid-row: 1;
     border: 4px solid #02C39A;
     height: 74px;
     width: 221px;
@@ -20,7 +22,9 @@
     text-align: center;
 }
 
-.box .blue {
+.blue {
+    grid-column: 2;
+    grid-row: 1;
     border: 4px solid rgba(0, 148, 255, 1);
     height: 74px;
     width: 329px;
@@ -31,7 +35,9 @@
     text-align: center;
 }
 
-.box .orange {
+.orange {
+    grid-column: 3;
+    grid-row: 1;
     border: 4px solid rgba(255, 131, 100, 1);
     height: 74px;
     width: 190px;
@@ -42,7 +48,7 @@
     text-align: center;
 }
 
-.box .text {
+.text {
     font-family: Roboto;
     font-size: 29px;
     font-style: normal;
@@ -50,5 +56,4 @@
     line-height: 34px;
     letter-spacing: 0em;
     text-align: center;
-    float: unset;
 }
