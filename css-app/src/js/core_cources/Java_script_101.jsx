@@ -7,11 +7,17 @@ class Java_script_101 extends Component {
         return (
             <div className='green_box'>
 
-                <img className='image' src={logo} img="Java script" />
-                <p className='first'>Javascript</p>
-                <p className='last'>JS 101</p>
-                <p className='hours'>50 Hours</p>
-                <p className='days'>(8 Days)</p>
+                <div className='row1column1'>
+                    <img className='image' src={logo} img="Java script" />
+                    <div className='firstrow_tiltle'>
+                        <p className='first'>Javascript</p>
+                        <br />
+                        <p className='last'>JS 101</p>
+                    </div>
+                    <p className='hours'>50 Hours</p>
+                    <p className='days'>(8 Days)</p>
+                </div>
+
 
                 <p className='full_course_name_part1'>Full course name</p>
                 <p className='full_course_name_part2'>The Modern Javascript <br /> Bootcamp</p>

@@ -8,13 +8,17 @@ class Grapgql_script_302 extends Component {
         return (
 
             <div className='green_box'>
+                <div className='row1column1'>
+                    <img className='image' src={logo} alt="graphQl logo" />
+                    <div className='firstrow_tiltle'>
+                        <p className='first'>GraphQL</p>
+                        <br />
+                        <p className='last'>JS 302</p>
+                    </div>
+                    <p className='hours'>40 Hours</p>
+                    <p className='days'>(6 Days)</p>
+                </div>
 
-                <img className='image' src={logo} alt="graphQl logo" />
-
-                <p className='first'>GraphQL</p>
-                <p className='last'>JS 302</p>
-                <p className='hours'>40 Hours</p>
-                <p className='days'>(6 Days)</p>
                 <p className='full_course_name_part1'>Full course name</p>
                 <p className='full_course_name_part2'>Practical GraphQL: Become a <br />GraphQL Ninja</p>
             </div>
