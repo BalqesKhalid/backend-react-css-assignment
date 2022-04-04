@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import logo from '../../icons-cources/nodejs.svg'
 import '../../css/green_box.css';
 
-class Nodejs_script_201 extends Component {
-    render() {
+function Nodejs_script_201 (){
         return (
 
             <div className='green_box'>
@@ -23,7 +22,6 @@ class Nodejs_script_201 extends Component {
                 </div>
             </div>
         );
-    }
 }
 
 export default Nodejs_script_201;

@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../../icons-cources/jira.svg'
 
-class Jira_course extends Component {
-    render() {
+function Jira_course (){
         return (
             <div className='blue_box'>
 
@@ -15,7 +14,6 @@ class Jira_course extends Component {
 
             </div>
         );
-    }
 }
 
 export default Jira_course;

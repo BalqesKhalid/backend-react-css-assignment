@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import logo from '../../icons-cources/javascript.svg'
 import '../../css/green_box.css';
 
-class Java_script_101 extends Component {
-    render() {
+function Java_script_101() {
         return (
             <div className='green_box'>
 
@@ -24,7 +23,7 @@ class Java_script_101 extends Component {
                 </div>
             </div>
         );
-    }
+    
 }
 
 export default Java_script_101;

@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import logo from '../../icons-cources/agile.svg'
 import '../../css/blue_box.css'
 
-class Agile_course extends Component {
-    render() {
+function Agile_course () {
         return (
             <div className='blue_box'>
 
@@ -16,7 +15,6 @@ class Agile_course extends Component {
             </div>
 
         );
-    }
 }
 
 export default Agile_course;

@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import logo from '../../icons-cources/graphql.svg'
 import '../../css/green_box.css';
 
-class Grapgql_script_302 extends Component {
+function Grapgql_script_302() {
 
-    render() {
+    
         return (
 
             <div className='green_box'>
@@ -24,7 +24,7 @@ class Grapgql_script_302 extends Component {
                 </div>
             </div>
         );
-    }
+    
 }
 
 export default Grapgql_script_302;

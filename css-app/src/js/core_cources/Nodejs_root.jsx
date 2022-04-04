@@ -3,8 +3,7 @@ import React, { Component } from 'react';
 import logo from '../../icons-cources/nodejs.svg';
 import '../../css/nodejs_root.css';
 
-class Nodejs_root extends Component {
-    render() {
+function Nodejs_root() {
         return (
            
                 <div className='root_box'>
@@ -19,7 +18,6 @@ class Nodejs_root extends Component {
                 </div>
             
         );
-    }
 }
 
 export default Nodejs_root;

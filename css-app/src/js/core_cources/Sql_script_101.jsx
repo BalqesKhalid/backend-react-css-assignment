@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import logo from '../../icons-cources/sql.svg'
 import '../../css/green_box.css';
 
-class Sql_script_101 extends Component {
-    render() {
+function Sql_script_101 () {
         return (
 
 
@@ -25,7 +24,6 @@ class Sql_script_101 extends Component {
             </div>
 
         );
-    }
 }
 
 export default Sql_script_101;

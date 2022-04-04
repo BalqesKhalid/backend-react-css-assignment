@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../../icons-cources/git.svg'
 
-class Git_course extends Component {
-    render() {
+function Git_course () {
         return (
             <div className='blue_box'>
 
@@ -15,7 +14,6 @@ class Git_course extends Component {
 
             </div>
         );
-    }
 }
 
 export default Git_course;
