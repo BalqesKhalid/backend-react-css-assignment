@@ -65,9 +65,18 @@ function App() {
           <img className='image2' src={sub_break_line} alt='break line' />
         </div>
         <div className='additionals_part2'>
-          <Agile_course />
-          <Git_course />
-          <Jira_course />
+
+          <div style={{ gridColumn: '1' }}>
+            <Jira_course />
+          </div>
+          <div style={{ gridColumn: '2' }}>
+            <Git_course />
+          </div>
+
+          <div style={{ gridColumn: '3' }}>
+            <Agile_course />
+          </div>
+
         </div>
 
       </div>

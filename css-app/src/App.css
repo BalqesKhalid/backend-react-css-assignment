@@ -85,40 +85,37 @@
 .additionals {
     grid-row: 9;
     grid-column: 1/4;
-    align-items: center;
     justify-content: center;
-    padding-left: 5%;
-    padding-right: 5%;
 }
 
 .additionals_part1 {
-    display: flex;
+    display: grid;
     align-items: center;
-    gap: 10px;
+    gap: 47px;
     justify-content: center;
 }
 
 .additionals_part2 {
-    display: flex;
-    gap: 2%;
+    display: grid;
+    gap: 36px;
     justify-content: center;
     place-items: center;
 }
 
 .additionals_part1 .image1 {
-    display: flex;
+    grid-column: 1;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .additionals_part1 .image2 {
-    display: flex;
+    grid-column: 3;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .additionals_part1 .text {
-    display: flex;
+    grid-column: 2;
     color: rgba(0, 52, 89, 1);
     font-family: Roboto;
     font-size: 38px;

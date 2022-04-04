@@ -7,7 +7,7 @@ class Git_course extends Component {
             <div className='blue_box'>
 
                 <img className='image' src={logo} />
-                <p className='title'>JIRA</p>
+                <p className='title'>git</p>
 
                 <p className='courseType_part1'>Course type </p>
                 <p className='courseType_part2'>Online Session </p>

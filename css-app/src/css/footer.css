@@ -13,7 +13,6 @@
     grid-column: 1;
     grid-row: 1;
     border: 4px solid #02C39A;
-    height: 74px;
     width: 221px;
     left: 0px;
     top: 0px;
@@ -26,7 +25,6 @@
     grid-column: 2;
     grid-row: 1;
     border: 4px solid rgba(0, 148, 255, 1);
-    height: 74px;
     width: 329px;
     left: 459px;
     top: 0px;
@@ -39,7 +37,6 @@
     grid-column: 3;
     grid-row: 1;
     border: 4px solid rgba(255, 131, 100, 1);
-    height: 74px;
     width: 190px;
     left: 245px;
     top: 0px;

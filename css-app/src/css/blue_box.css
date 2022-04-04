@@ -3,9 +3,14 @@
     border: 4px solid rgba(0, 148, 255, 1);
     box-sizing: border-box;
     border-radius: 40px;
-    padding: 15px;
     display: grid;
     grid-template-columns: 60% 40%;
+    height: 236px;
+    width: 269px;
+    left: 305px;
+    top: 0px;
+    border-radius: 40px;
+    padding: 30px;
 }
 
 .image {
