@@ -18,9 +18,10 @@ class Java_script_101 extends Component {
                     <p className='days'>(8 Days)</p>
                 </div>
 
-
-                <p className='full_course_name_part1'>Full course name</p>
-                <p className='full_course_name_part2'>The Modern Javascript <br /> Bootcamp</p>
+                <div className='course_full_name'>
+                    <p className='full_course_name_part1'>Full course name</p>
+                    <p className='full_course_name_part2'>The Modern Javascript <br /> Bootcamp</p>
+                </div>
             </div>
         );
     }

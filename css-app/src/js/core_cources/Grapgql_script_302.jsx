@@ -18,9 +18,10 @@ class Grapgql_script_302 extends Component {
                     <p className='hours'>40 Hours</p>
                     <p className='days'>(6 Days)</p>
                 </div>
-
-                <p className='full_course_name_part1'>Full course name</p>
-                <p className='full_course_name_part2'>Practical GraphQL: Become a <br />GraphQL Ninja</p>
+                <div className='course_full_name'>
+                    <p className='full_course_name_part1'>Full course name</p>
+                    <p className='full_course_name_part2'>Practical GraphQL: Become a <br />GraphQL Ninja</p>
+                </div>
             </div>
         );
     }

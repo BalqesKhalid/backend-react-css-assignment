@@ -18,9 +18,10 @@ class Sql_script_101 extends Component {
                     <p className='hours'>8 Hours</p>
                     <p className='days'>(1 Days)</p>
                 </div>
-
-                <p className='full_course_name_part1'>Full course name</p>
-                <p className='full_course_name_part2'>Learning SQL</p>
+                <div className='course_full_name'>
+                    <p className='full_course_name_part1'>Full course name</p>
+                    <p className='full_course_name_part2'>Learning SQL</p>
+                </div>
             </div>
 
         );

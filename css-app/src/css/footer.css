@@ -5,52 +5,45 @@
     border-radius: 40px;
     padding: 15px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
+    gap: 64px;
 }
 
 .green {
-    grid-column: 1;
     grid-row: 1;
     border: 4px solid #02C39A;
     width: 221px;
     left: 0px;
     top: 0px;
     border-radius: 40px;
-    padding: 20px, 40px, 20px, 40px;
     text-align: center;
 }
 
 .blue {
-    grid-column: 2;
     grid-row: 1;
     border: 4px solid rgba(0, 148, 255, 1);
     width: 329px;
     left: 459px;
     top: 0px;
     border-radius: 40px;
-    padding: 20px, 40px, 20px, 40px;
     text-align: center;
 }
 
 .orange {
-    grid-column: 3;
     grid-row: 1;
     border: 4px solid rgba(255, 131, 100, 1);
     width: 190px;
     left: 245px;
     top: 0px;
     border-radius: 40px;
-    padding: 20px, 40px, 20px, 40px;
     text-align: center;
 }
 
-.text {
+.box .text {
     font-family: Roboto;
     font-size: 29px;
-    font-style: normal;
     font-weight: 700;
     line-height: 34px;
     letter-spacing: 0em;
     text-align: center;
+    margin: 20px 40px 20px 40px;
 }

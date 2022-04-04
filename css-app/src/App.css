@@ -72,33 +72,31 @@
     grid-column: 1/4;
     grid-row: 6;
     justify-self: center;
-    width: 25%;
 }
 
 .level3 {
     grid-column: 1/4;
     grid-row: 8;
     justify-self: center;
-    width: 25%;
 }
 
 .additionals {
     grid-row: 9;
     grid-column: 1/4;
     justify-content: center;
+    display: grid;
 }
 
 .additionals_part1 {
     display: grid;
     align-items: center;
-    gap: 47px;
     justify-content: center;
+    gap: 41px;
 }
 
 .additionals_part2 {
     display: grid;
-    gap: 36px;
-    justify-content: center;
+    justify-content: space-between;
     place-items: center;
 }
 
@@ -127,10 +125,12 @@
 
 .footer {
     grid-row: 10;
-    grid-column: 2;
-    align-items: center;
-    justify-content: center;
+    grid-column: 1/4;
+    justify-self: center;
     padding-left: 5%;
     padding-right: 5%;
     margin-top: 2%;
+    display: grid;
+    justify-content: space-between;
+    place-items: center;
 }

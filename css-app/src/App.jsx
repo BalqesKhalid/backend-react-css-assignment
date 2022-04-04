@@ -13,6 +13,7 @@ import left_arrow from './icons-cources/left_arrow.svg'
 import down_arrow from './icons-cources/down_arrow.svg'
 
 import sub_break_line from './icons-cources/sub_break_line.svg'
+
 function App() {
   return (
     <body class='roadmap'>
@@ -86,6 +87,7 @@ function App() {
       </footer>
     </body >
   );
+
 }
 
 export default App;

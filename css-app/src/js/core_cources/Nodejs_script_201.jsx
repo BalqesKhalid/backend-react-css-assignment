@@ -17,9 +17,10 @@ class Nodejs_script_201 extends Component {
                     <p className='hours'>64 Hours</p>
                     <p className='days'>(10 Days)</p>
                 </div>
-
-                <p className='full_course_name_part1'>Full course name</p>
-                <p className='full_course_name_part2'>The complete Node.js Developer <br />Course (3rd Edition)</p>
+                <div className='course_full_name'>
+                    <p className='full_course_name_part1'>Full course name</p>
+                    <p className='full_course_name_part2'>The complete Node.js Developer <br />Course (3rd Edition)</p>
+                </div>
             </div>
         );
     }
