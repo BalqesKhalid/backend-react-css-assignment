@@ -72,19 +72,27 @@
     margin-top: 0%;
 }
 
+.firstrow_duraion {
+    height: 63px;
+    width: 185px;
+    left: 76px;
+    top: 0px;
+    border-radius: nullpx;
+    grid-column: 3;
+    grid-row: 1;
+}
+
 .hours {
     color: rgba(0, 52, 89, 1);
     font-family: Roboto;
     font-size: 21px;
     font-style: normal;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 19.92px;
     letter-spacing: 0em;
     text-align: right;
-    margin-bottom: 0%;
-    float: right;
-    grid-column: 3;
-    grid-row: 1;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .days {
@@ -93,13 +101,11 @@
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
-    line-height: 25px;
+    line-height: 24.61px;
     letter-spacing: 0em;
     text-align: right;
     margin-top: 0;
-    float: right;
-    grid-column: 3;
-    grid-row: 1;
+    margin-bottom: 0;
 }
 
 .course_full_name {
