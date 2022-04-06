@@ -12,6 +12,8 @@ import sub_break_line from './icons-cources/sub_break_line.svg'
 import jira_logo from './icons-cources/jira.svg'
 import agile_logo from './icons-cources/agile.svg'
 import git_logo from './icons-cources/git.svg'
+
+import backgroundImg from './background.svg'
 const sql_101_course = {
   'shortTitle' :'SQL',
   'code':'SQL 101',
@@ -62,7 +64,7 @@ const git_course = {
 
 function App() {
   return (
-    <body class='roadmap'>
+    <body class='roadmap' style={{backgroundImage: `url(${backgroundImg})`}}>
       <header className='header'>
         <AppHeader />
       </header>

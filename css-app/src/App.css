@@ -4,6 +4,8 @@
     display: grid;
     grid-template-columns: 25% 50% 25%;
     grid-template-rows: repeat(8, auto);
+    background-repeat: 'no-repeat';
+    background-size: 100% 120%;
 }
 
 .header {
