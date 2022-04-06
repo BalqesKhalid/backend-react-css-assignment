@@ -17,7 +17,7 @@ const sql_101_course = {
   'code':'SQL 101',
   'durationByDays':1,
   'durationByhours':8,
-  'fullTitle': 'Learning SQL'
+  'fullTitle': ['Learning SQL']
 };
 
 const js_101_course = {
@@ -25,7 +25,7 @@ const js_101_course = {
   'code':'JS 101',
   'durationByDays':8,
   'durationByhours':50,
-  'fullTitle': 'The Modern Javascript <br/> Bootcamp'
+  'fullTitle': ['The Modern Javascript', 'Bootcamp']
 };
 
 const grapgQl_302_course = {
@@ -33,14 +33,14 @@ const grapgQl_302_course = {
   'code':'JS 302',
   'durationByDays':6,
   'durationByhours':40,
-  'fullTitle': 'Practical GraphQL: Become a <br/>GraphQL Ninja'
+  'fullTitle': ['Practical GraphQL: Become a','GraphQL Ninja']
 };
 const nodeJs_201_course = {
   'shortTitle' :'NodeJS',
   'code':'JS 201',
   'durationByDays':10,
   'durationByhours':64,
-  'fullTitle': 'The complete Node.js Developer <br/>Course (3rd Edition)'
+  'fullTitle': ['The complete Node.js Developer ','Course (3rd Edition)']
 };
 
 
