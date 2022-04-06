@@ -1,18 +1,64 @@
+import React from 'react';
 import './App.css';
 import AppHeader from './js/Header';
 import Root_course from './js/core_cources/Nodejs_root';
-import Java_script_101 from './js/core_cources/Java_script_101';
-import Sql_script_101 from './js/core_cources/Sql_script_101';
-import Nodejs_script_201 from './js/core_cources/Nodejs_script_201';
-import Grapgql_script_302 from './js/core_cources/Grapgql_script_302';
-import Agile_course from './js/additional_cources/Agile_course';
-import Git_course from './js/additional_cources/Git_course';
-import Jira_course from './js/additional_cources/Jira_course';
+import CoreCorse from './js/core_cources/CoreCorse';
+import AdditionalCourse from './js/additional_cources/AdditionalCourse';
 import Footer from './js/Footer';
 import left_arrow from './icons-cources/left_arrow.svg'
 import down_arrow from './icons-cources/down_arrow.svg'
-
 import sub_break_line from './icons-cources/sub_break_line.svg'
+/*logo*/
+import jira_logo from './icons-cources/jira.svg'
+import agile_logo from './icons-cources/agile.svg'
+import git_logo from './icons-cources/git.svg'
+const sql_101_course = {
+  'shortTitle' :'SQL',
+  'code':'SQL 101',
+  'durationByDays':1,
+  'durationByhours':8,
+  'fullTitle': 'Learning SQL'
+};
+
+const js_101_course = {
+  'shortTitle' :'Javascript',
+  'code':'JS 101',
+  'durationByDays':8,
+  'durationByhours':50,
+  'fullTitle': 'The Modern Javascript <br/> Bootcamp'
+};
+
+const grapgQl_302_course = {
+  'shortTitle' :'GraphQL',
+  'code':'JS 302',
+  'durationByDays':6,
+  'durationByhours':40,
+  'fullTitle': 'Practical GraphQL: Become a <br/>GraphQL Ninja'
+};
+const nodeJs_201_course = {
+  'shortTitle' :'NodeJS',
+  'code':'JS 201',
+  'durationByDays':10,
+  'durationByhours':64,
+  'fullTitle': 'The complete Node.js Developer <br/>Course (3rd Edition)'
+};
+
+
+const agile_course = {
+  'shortTitle' :'Agile',
+  'hours':4,
+  'type':'Online Session'  
+};
+const jira_course = {
+  'shortTitle' :'JIRA',
+  'hours':4,
+  'type':'Online Session'  
+};
+const git_course = {
+  'shortTitle' :'git',
+  'hours':4,
+  'type':'Online Session'  
+};
 
 function App() {
   return (
@@ -33,13 +79,13 @@ function App() {
 
       <div className='level1'>
         <div className='level1_col1'>
-          <Java_script_101 />
+          <CoreCorse details={js_101_course}/>
         </div>
         <div className='level1_col2'>
           <img src={left_arrow} alt='right arrow' />
         </div>
         <div className='level1_col3'>
-          <Sql_script_101 />
+          <CoreCorse details={sql_101_course}/>
         </div>
       </div>
       {/*arrow 2*/}
@@ -48,7 +94,7 @@ function App() {
       </div>
       {/*Level 2*/}
       <div className='level2'>
-        <Nodejs_script_201 />
+        <CoreCorse details={nodeJs_201_course}/>
       </div>
       {/*arrow 3*/}
       <div className='down_arrow3'>
@@ -56,7 +102,7 @@ function App() {
       </div>
       {/*Level 3*/}
       <div className='level3'>
-        <Grapgql_script_302 />
+      <CoreCorse details={grapgQl_302_course}/>
       </div>
 
       <div className='additionals'>
@@ -68,14 +114,16 @@ function App() {
         <div className='additionals_part2'>
 
           <div style={{ gridColumn: '1' }}>
-            <Jira_course />
+            <AdditionalCourse details={jira_course} logo={jira_logo}/>
           </div>
           <div style={{ gridColumn: '2' }}>
-            <Git_course />
+       
+          <AdditionalCourse details={git_course} logo={git_logo}/>
           </div>
 
           <div style={{ gridColumn: '3' }}>
-            <Agile_course />
+         
+          <AdditionalCourse details={agile_course} logo={agile_logo}/>
           </div>
 
         </div>
