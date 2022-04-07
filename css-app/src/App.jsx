@@ -13,58 +13,16 @@ import jira_logo from './icons-cources/jira.svg'
 import agile_logo from './icons-cources/agile.svg'
 import git_logo from './icons-cources/git.svg'
 
-import backgroundImg from './background.svg'
-const sql_101_course = {
-  'shortTitle' :'SQL',
-  'code':'SQL 101',
-  'durationByDays':1,
-  'durationByhours':8,
-  'fullTitle': ['Learning SQL']
-};
-
-const js_101_course = {
-  'shortTitle' :'Javascript',
-  'code':'JS 101',
-  'durationByDays':8,
-  'durationByhours':50,
-  'fullTitle': ['The Modern Javascript', 'Bootcamp']
-};
-
-const grapgQl_302_course = {
-  'shortTitle' :'GraphQL',
-  'code':'JS 302',
-  'durationByDays':6,
-  'durationByhours':40,
-  'fullTitle': ['Practical GraphQL: Become a','GraphQL Ninja']
-};
-const nodeJs_201_course = {
-  'shortTitle' :'NodeJS',
-  'code':'JS 201',
-  'durationByDays':10,
-  'durationByhours':64,
-  'fullTitle': ['The complete Node.js Developer ','Course (3rd Edition)']
-};
+import CoreCorcesUtil from './CoreCorcesUtil';
+import AdditionalCorcesUtil from './AdditionalCorcesUtil';
 
 
-const agile_course = {
-  'shortTitle' :'Agile',
-  'hours':4,
-  'type':'Online Session'  
-};
-const jira_course = {
-  'shortTitle' :'JIRA',
-  'hours':4,
-  'type':'Online Session'  
-};
-const git_course = {
-  'shortTitle' :'git',
-  'hours':4,
-  'type':'Online Session'  
-};
+
+
 
 function App() {
   return (
-    <body class='roadmap' style={{backgroundImage: `url(${backgroundImg})`}}>
+    <body class='roadmap'>
       <header className='header'>
         <AppHeader />
       </header>
@@ -81,13 +39,13 @@ function App() {
 
       <div className='level1'>
         <div className='level1_col1'>
-          <CoreCorse details={js_101_course}/>
+          <CoreCorse details={CoreCorcesUtil.getCourseByCode('JS 101')}/>
         </div>
         <div className='level1_col2'>
           <img src={left_arrow} alt='right arrow' />
         </div>
         <div className='level1_col3'>
-          <CoreCorse details={sql_101_course}/>
+        <CoreCorse details={CoreCorcesUtil.getCourseByCode('SQL 101')}/>
         </div>
       </div>
       {/*arrow 2*/}
@@ -96,7 +54,7 @@ function App() {
       </div>
       {/*Level 2*/}
       <div className='level2'>
-        <CoreCorse details={nodeJs_201_course}/>
+        <CoreCorse details={CoreCorcesUtil.getCourseByCode('JS 201')}/>
       </div>
       {/*arrow 3*/}
       <div className='down_arrow3'>
@@ -104,7 +62,7 @@ function App() {
       </div>
       {/*Level 3*/}
       <div className='level3'>
-      <CoreCorse details={grapgQl_302_course}/>
+      <CoreCorse details={CoreCorcesUtil.getCourseByCode('JS 302')}/>
       </div>
 
       <div className='additionals'>
@@ -116,16 +74,16 @@ function App() {
         <div className='additionals_part2'>
 
           <div style={{ gridColumn: '1' }}>
-            <AdditionalCourse details={jira_course} logo={jira_logo}/>
+            <AdditionalCourse details={AdditionalCorcesUtil.getCourseByCode('JIRA')} logo={jira_logo}/>
           </div>
           <div style={{ gridColumn: '2' }}>
        
-          <AdditionalCourse details={git_course} logo={git_logo}/>
+          <AdditionalCourse details={AdditionalCorcesUtil.getCourseByCode('git')}  logo={git_logo}/>
           </div>
 
           <div style={{ gridColumn: '3' }}>
          
-          <AdditionalCourse details={agile_course} logo={agile_logo}/>
+          <AdditionalCourse details={AdditionalCorcesUtil.getCourseByCode('Agile')}  logo={agile_logo}/>
           </div>
 
         </div>

@@ -1,16 +1,22 @@
 .roadmap {
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 20%;
+    margin-left: 20%;
     display: grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 15% 70% 15%;
     grid-template-rows: repeat(8, auto);
-    background-repeat: 'no-repeat';
-    background-size: 100% 120%;
+    background-image: url(background/Vectortop.svg), url(background/Vectorleft.svg), url(background/Vectorright.svg), url(background/Vectorbottom.svg);
+    background-position: center top, left center, right center, center bottom;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 100% 35%, auto, auto, 100% 40%;
+    background-blend-mode: Pass through, Pass through, Pass through, Pass through;
 }
 
 .header {
     grid-column: 1/4;
     grid-row: 1;
+    margin-top: 116px;
+    margin-right: 79px;
+    margin-left: 79px;
 }
 
 .roadmap_root {
@@ -23,24 +29,24 @@
     grid-column: 1/4;
     grid-row: 3;
     justify-self: center;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 29px;
+    margin-bottom: 29px;
 }
 
 .down_arrow2 {
     grid-column: 1/4;
     grid-row: 5;
     justify-self: center;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 29px;
+    margin-bottom: 29px;
 }
 
 .down_arrow3 {
     grid-column: 1/4;
     grid-row: 7;
     justify-self: center;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 29px;
+    margin-bottom: 29px;
 }
 
 .level1 {
