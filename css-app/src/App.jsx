@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 import AppHeader from './js/Header';
-import Root_course from './js/core_cources/Nodejs_root';
-import CoreCorse from './js/core_cources/CoreCorse';
-import AdditionalCourse from './js/additional_cources/AdditionalCourse';
+import Root_course from './js/Nodejs_root';
+import CoreCorse from './js/CoreCorse';
+import AdditionalCourse from './js/AdditionalCourse';
 import Footer from './js/Footer';
 import left_arrow from './icons-cources/left_arrow.svg'
 import down_arrow from './icons-cources/down_arrow.svg'
@@ -13,8 +13,8 @@ import jira_logo from './icons-cources/jira.svg'
 import agile_logo from './icons-cources/agile.svg'
 import git_logo from './icons-cources/git.svg'
 
-import CoreCorcesUtil from './CoreCorcesUtil';
-import AdditionalCorcesUtil from './AdditionalCorcesUtil';
+import CoreCorcesUtil from './js/data-util/CoreCorcesUtil';
+import AdditionalCorcesUtil from './js/data-util/AdditionalCorcesUtil';
 
 
 
